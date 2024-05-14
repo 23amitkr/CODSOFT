@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="leftnav">Amit's Portfolio</div>
+            <div class="rightnav">
+                <div><a href="">Home</a></div>
+                <div><a href="">About me</a></div>
+                <div><a href="">Contact me</a></div>
+                <div><a href="">More</a></div>
+            </div>
+        </div>
+        
+        
+    </header>
+    <main>
+        <div class="about">
+            <div class="aboutleft">
+                <h2>Hello, I am Amit Hazra</h2>
+                <p>I'm a web developer with experience front-end. I can build the structure and style of websites with HTML, CSS, and JavaScript. For complex user interfaces, I leverage React.js, a popular front-end framework. Additionally, I know other programming languages like python, java and have a good knowledge OOPs.</p>
+                <div class="interests">My Skills come through </div>
+
+                <span id="element"></span>
+                <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+                <script class="typedjs">
+                    var typed = new Typed('#element', {
+                      strings: ['Web Developing.', 'Python programming.', 'Java Programming.', ' Web Designing.'],
+                      typeSpeed: 70,
+                    });
+                  </script>
+            </div>
+            <div class="aboutright">
+                <img src="photo.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="skills">
+            <div class="skills_div">
+              <h2>Skills</h2>
+              <p>I possess a well-rounded skillset for web development, enabling me to build robust and visually appealing websites. I can create the foundation and visual style of websites using HTML, CSS, and JavaScript. For interactive interfaces, I utilize React.js to create dynamic and engaging user experiences. My back-end knowledge includes core Java, allowing me to handle complex server-side logic. I can handle both front-end and back-end aspects of web development with ease. Additionally, I possess proficiency in Python programming, further expanding my skillset. I understand the user experience (UX) and user interface (UI) design principles, ensuring that my websites are both functional and aesthetically pleasing. I can design and develop websites that are intuitive, responsive, and meet the needs of users. My skills in web development enable me to create websites that are scalable, secure, and efficient. Overall, I am a versatile web developer with a strong foundation in both front-end and back-end development.</p>
+            </div>
+          </div>
+            
+        </div>
+
+        <section class="projects">
+          <h2>Projects</h2>
+          <div class="project-grid">
+            <div class="project-card">
+              <img src="hoverboard.png" alt="Hover Board Screenshot">
+              <h3>HoverBoard (A note taking app)</h3>
+              <p>A note-taking app that allows users to organize their thoughts and ideas in a visually appealing way. With a simple and intuitive interface, users can create notes, add tags, and search for specific notes. Furthermoreyou can import your files from yaur vault to make your environment more friendly</p>
+            </div>
+
+            <div class="project-card">
+              <img src="movie_recomender_system.png" alt="Movie Recommender Screenshot">
+              <h3>Movie Recommender System</h3>
+              <p>A machine learning-based project that recommends movies to users based on their viewing history and preferences. Using natural language processing and collaborative filtering, the system provides personalized recommendations to users.</p>
+            </div>
+
+            <div class="project-card">
+              <img src="amazon_clone.png" alt="AmazonClone Screenshot">
+              <h3>Amazon Clone</h3>
+              <p>A front-end e-commerce website that mimics the functionality of Amazon, showcasing product browsing capabilities. Users can interact with a search bar and navigate through product categories using HTML forms and buttons.</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="resume-box">
+          <a href="resume.pdf" download>
+            <button class="download-btn">Download Resume</button>
+          </a>
+        </div>
+        
+        
+    </main>
+    
+    <footer>
+      <div class="links">
+          <div class="instagram"><i class="fa-brands fa-instagram"></i></div>
+          <div class="facebook"><i class="fa-brands fa-facebook-f"></i></div>
+          <div class="linkedin"><i class="fa-brands fa-linkedin-in"></i></div>
+          <div class="youtube"><i class="fa-brands fa-youtube"></i></div>
+          <div class="github"><i class="fa-brands fa-github"></i></div>
+      </div>
+
+      <div class="copyright">Copyright © 2024 Amit Hazra, Inc.</div>
+
+      <div class="docs">
+          <a href="" class="d_hov">Legal Stuff</a>
+          <div class="pipe">|</div>
+          <a href="" class="d_hov">Privacy Policy</a> 
+          <div class="pipe">|</div>
+          <a href="" class="d_hov">Security</a> 
+          <div class="pipe">|</div> 
+          <a href="" class="d_hov">website Accessibility</a>   
+          <div class="pipe">|</div>
+          <a href="" class="d_hov">Manage Cookies</a>      
+      </div>
+  </footer>
+    
+</body>
+</html>
